@@ -1,3 +1,4 @@
+
 from tkinter import*
 
 cal = Tk()
@@ -31,5 +32,31 @@ btn6 = Button(cal, padx = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
 
 subtraction =  Button(cal, padx = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
               text= "-", bg="powder blue").grid(row = 2, column = 3)
+
+btn1 = Button(cal, padx = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
+              text= "1", bg="powder blue").grid(row = 3, column = 0)
+
+btn2 = Button(cal, padx = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
+              text= "2", bg="powder blue").grid(row = 3, column = 1)
+
+btn3 = Button(cal, padx = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
+              text= "3", bg="powder blue").grid(row = 3, column = 2)
+
+multiply =  Button(cal, padx = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
+             text= "*", bg="powder blue").grid(row = 3, column = 3)
+
+btn0 = Button(cal, padx = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
+              text= "0", bg="powder blue").grid(row = 4, column = 0)
+
+btnClear = Button(cal, padx = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
+              text= "C", bg="powder blue").grid(row = 4, column = 1)
+
+btnEqual = Button(cal, padx = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
+              text= "=", bg="powder blue").grid(row = 4, column = 2)
+
+Division =  Button(cal, padx = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
+             text= "/", bg="powder blue").grid(row = 4, column = 3)
+
+
 
 cal.mainloop()
