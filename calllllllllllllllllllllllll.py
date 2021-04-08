@@ -14,7 +14,7 @@ def btnEqualsInput():
     global operator
     sumup= str(eval(operator))
     text_Input.set(sumup)
-     operator = ""
+    operator = ""
 
 cal = Tk()
 cal.title("calculator")
@@ -67,7 +67,7 @@ btnClear = Button(cal, padx = 16, pady = 16, bd = 8, fg = "black", font=('arail'
               text= "C", bg="powder blue", command= btnClearDisplay).grid(row = 4, column = 1)
 
 btnEqual = Button(cal, padx = 16,pady = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
-              text= "=", bg="powder blue", command=  btnEqualsInput ).grid(row = 4, column = 2)
+              text= "=", bg="powder blue" , command=  btnEqualsInput  ).grid(row = 4, column = 2)
 
 Division =  Button(cal, padx = 16,pady = 16, bd = 8, fg = "black", font=('arail', 20, 'bold'),
              text= "/", bg="powder blue", command=lambda:btnClick("/")).grid(row = 4, column = 3)
